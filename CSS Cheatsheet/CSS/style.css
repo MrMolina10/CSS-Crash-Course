@@ -1,0 +1,126 @@
+/*
+*{
+    Margin:0;
+    Padding:0;
+}
+*/
+
+body{
+    background-color: white;
+     font-size: 1em;
+     line-height: 1.2em;
+}
+.clr{
+    clear:both;
+}
+    .box-1{
+        background-color: #333;
+        color: #fff;
+        border: 5px red solid;
+        border-right-style:dotted;
+        border-left-style:dotted;
+        border-bottom-width: 10px;
+        padding: top 20px;
+        padding: 20px;
+        }
+
+    a{
+        text-decoration:none;
+        color:#000;
+    }
+    a:hover{
+        color:red;
+    }
+    a:active{
+        color:green;
+    }
+    a:visited{
+        color:black;
+    }
+        .container{
+        width: 80%;
+        margin: auto;
+    }
+
+.box-1 h1{
+        font-family:Tahoma;
+        font-weight:800;
+        font-style: italic;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+    }
+
+.box-2{
+        border: 3px dotted #ccc;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+.categorie{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius:15px;
+}
+
+.categorie h2{
+    text-align:center;
+}
+.categorie ul{
+    list-style:square;
+list-style:none;
+}
+.categorie li{
+    padding: bottom 8px;
+    border-bottom:dotted 1px #333;
+    list-style-image:url('../Images/check.png');
+}
+.my-form{
+    padding:20px;
+}
+.my-from .form-group{
+    padding-bottom:15px;
+}
+.my-from label{
+    display:block;
+}
+.my-form input[type="text"],.my-form textarea{
+    padding:8px;
+    width:100%;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+#main-block{
+    float:left;
+    width:70%;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:darkgray;
+    color:white;
+    padding:15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin: 30px 60px 0px 0px;
+    position: relative;
+}
+.p-box h1{
+position:absolute;
+bottom: 40px;
+right: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 200px;
+    left: 25px;
+}

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[54],{547:function(t,e,n){"use strict";n.r(e);var l={layout:"course",mounted:function(){this.$router.push("/final")}},o=n(35),component=Object(o.a)(l,(function(){var t=this.$createElement;return(this._self._c||t)("div",{staticClass:"theatre"})}),[],!1,null,null,null);e.default=component.exports}}]);
